@@ -3,9 +3,15 @@ body {
 }
 h1 {
   font-size: 50px;
-  margin: 0px;
+  margin:
+   0px;
 }
-h1 span {
+h2{
+  font-size: 40px;
+  
+  text-align: center;
+}
+.color {
   color: rgb(77, 184, 56);
 }
 .division {
@@ -20,8 +26,9 @@ h1 span {
   width: 70%;
   height: 400px;
 }
-section {
+.flexible-container {
   display: flex;
+  margin-bottom: 50px;
 }
 .button-tasks {
   text-decoration: none;
@@ -49,4 +56,34 @@ section {
 }
 .mission-title{
   margin-left: 3%;
+}
+.mission-attribute{
+  height: 350px;
+  background-color: red;
+ 
+  width: 100%;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin :1%;
+  height: 350px;
+}
+.mission-attribute img{
+  width: 50%;
+  height: 150px;
+  
+
+}
+#mission-attribute-target{
+  background-color: rgb(125, 161, 161);
+  margin-right: 12%;
+}
+#mission-attribute-mission{
+  background-color: cadetblue;
+  margin-left: 12%;
+}
+
+#mission-attribute-vission{
+  background-color: chocolate;
 }
